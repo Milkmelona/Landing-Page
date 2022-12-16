@@ -48,7 +48,7 @@ a {
     color: #e5e7eb;
     margin-bottom: 15px;
 }
-button {
+.content-1 button {
     font-size: 16px;
     font-weight: 800;
     border-radius: 8px;
@@ -98,7 +98,7 @@ button {
   }
   .content-3 {
     background-color: #e5e7eb;
-    padding: 100px 290px;
+    padding: 130px 290px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -116,3 +116,50 @@ button {
     margin-top: 20px;
     align-self: flex-end;
   }
+  .content-4 {
+    padding: 130px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cta {
+    font-size: 22px;
+    color: #f9faf8;
+    font-weight: bold;
+  }
+  .details {
+    font-size: 17px;
+    color: #f9faf8d8;
+  }
+  .blue-container {
+    background-color: #3882f6;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 95px;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .content-4 button {
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background: #3882f6;
+    border: 2px solid black;
+    border-color: white;
+    color: white
+  }
+  .footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 150px;
+  }
+.footer-text {
+    color: #e5e7eb;
+    font-size: 23px;
+}
