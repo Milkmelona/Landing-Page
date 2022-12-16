@@ -7,7 +7,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 200px;
+    padding: 15px 230px;
     margin: 0;
 }
 ul {
@@ -32,7 +32,7 @@ a {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 200px;
+    padding: 100px 230px;
     margin: 0;
     gap: 25px
 ;
@@ -61,3 +61,58 @@ button {
     width: 700px;
     height: 320px;
 }
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 230px;
+}
+.collection {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.info img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 10px;
+    border: 3px solid #8b919b;
+    border-radius: 8px;
+
+}
+.info {
+    max-width: 250px;
+  }
+  .info text {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  .content-3 {
+    background-color: #e5e7eb;
+    padding: 100px 290px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+  }
+  .speaker {
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 20px;
+    align-self: flex-end;
+  }
